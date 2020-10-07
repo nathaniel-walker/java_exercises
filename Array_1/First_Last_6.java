@@ -19,9 +19,9 @@ public boolean First_Last_6(int[] nums) {
 	// for loop iterating through array
   	for (int i = 0; i < nums.length; i++) {
   		// if condition for meeting criteria of returning true
-    	if (nums[0] == 6 || nums[nums.length - 1] == 6) {
-      		return true;
-    	}
+    		if (nums[0] == 6 || nums[nums.length - 1] == 6) {
+      			return true;
+    		}
   	}
   	// return false otherwise
   	return false;
