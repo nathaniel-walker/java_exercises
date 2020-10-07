@@ -19,9 +19,9 @@ public boolean Same_First_Last(int[] nums) {
 	// for loop iterating through array
   	for (int i = 0; i < nums.length; i++) {
   		// if the array is of length 1 or more and satisfies the conditions, return true
-    	if (nums.length >= 1 && nums[0] == nums[nums.length - 1]) {
-      		return true;
-    	}
+    		if (nums.length >= 1 && nums[0] == nums[nums.length - 1]) {
+      			return true;
+    		}
   	}
   	// otherwise, return false
   	return false;
